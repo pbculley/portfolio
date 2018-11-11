@@ -4,9 +4,10 @@ html, body {
 	color: white;
 	font-family: 'Raleway', sans-serif;
 }
+
 .navbar-brand {
-	color: white !important;
-	font-family: 'Oswald', sans-serif;
+/*	color: white !important;
+*/	font-family: 'Oswald', sans-serif;
 	letter-spacing: 3px;
 	font-size: 24px;
 	}
@@ -29,16 +30,44 @@ p {
 }
 }
 
-.photo {
+/*.photo {
 	height: 250px;
-/*	width: 250px;
-*/	background-color: red;
-}
+	width: 250px;
+	background-color: red;
+}*/
 nav {
-	padding: 20px;
+	padding: 2px 10px; 
 }
 #navlinks {
+	font-family: 'Oswald', sans-serif;
 	color: white;
 	font-size: 18px;
+	letter-spacing: 2.5px;
 }
 
+.media-logos {
+	text-align: center;
+}
+
+.logos {
+	width: 30px;
+	height: 30px;
+	margin: 20px;
+}
+
+.fa-envelope {
+    font-size: 30px;
+    margin: 20px;
+    color: #d6d4d4;
+    width: 45px;
+    height: 50px;
+    vertical-align: top;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+    line-height: 30px;
+}
+.media-icons ul {
+	display: inline;
+	line-height: 41px
+}
